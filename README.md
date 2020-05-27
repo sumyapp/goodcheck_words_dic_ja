@@ -1,0 +1,1 @@
+# goodcheck_words_dic_ja
