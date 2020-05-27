@@ -1,0 +1,39 @@
+rules:
+  - id: review.sider.words-dic.ja.1
+    pattern: 如何を問わず
+    message: いかんを問わず
+    fail:
+      - 如何を問わず
+    pass:
+      - いかんを問わず
+  - id: review.sider.words-dic.ja.2
+    pattern: 致す
+    message: いたす
+    fail:
+      - 致す
+    pass:
+      - いたす
+  - id: review.sider.words-dic.ja.3
+    pattern: 
+      - 頂く
+      - 戴く
+    message: いただく
+    fail:
+      - 頂く
+      - 戴く
+    pass:
+      - いただく
+  - id: review.sider.words-dic.ja.4
+    pattern: 行なうものとする
+    message: 行うものとする
+    fail:
+      - 行なうものとする
+    pass:
+      - 行うものとする
+  - id: review.sider.words-dic.ja.5
+    pattern: 乙の蒙った損害
+    message: 乙の被った損害
+    fail:
+      - 乙の蒙った損害
+    pass:
+      - 乙の被った損害  
